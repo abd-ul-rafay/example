@@ -6,15 +6,16 @@ import TopBar from "./components/TopBar";
 
 const App = () => {
   return (
-    <BrowserRouter basename="/example">
-      <TopBar />
-      <Routes>
-        <Route exact path="/example" element={<Home />}/>
-        <Route path="/about" element={<About />}/>
-        <Route path="/Contact" element={<Contact />}/>
-        <Route path="*" element={<h1>404</h1>}/>
-      </Routes>
-    </BrowserRouter>
+    <h1>Hello</h1>
+    // <BrowserRouter basename="/example">
+    //   <TopBar />
+    //   <Routes>
+    //     <Route exact path="/example" element={<Home />}/>
+    //     <Route path="/about" element={<About />}/>
+    //     <Route path="/Contact" element={<Contact />}/>
+    //     <Route path="*" element={<h1>404</h1>}/>
+    //   </Routes>
+    // </BrowserRouter>
   )
 }
 
