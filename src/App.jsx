@@ -9,7 +9,7 @@ const App = () => {
     <BrowserRouter basename="/example">
       <TopBar />
       <Routes>
-        <Route path="/" element={<Home />}/>
+        <Route exact path="/example" element={<Home />}/>
         <Route path="/about" element={<About />}/>
         <Route path="/Contact" element={<Contact />}/>
         <Route path="*" element={<h1>404</h1>}/>
