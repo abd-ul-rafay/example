@@ -6,7 +6,7 @@ import TopBar from "./components/TopBar";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/example">
       <TopBar />
       <Routes>
         <Route path="/" element={<Home />}/>
